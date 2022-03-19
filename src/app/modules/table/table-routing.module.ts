@@ -10,6 +10,9 @@ import { RowgroupTableComponent } from './components/rowgroup-table/rowgroup-tab
 import { ExportTableComponent } from './components/export-table/export-table.component';
 import { StateTableComponent } from './components/state-table/state-table.component';
 import { EditTableComponent } from './components/edit-table/edit-table.component';
+import { FilterTableComponent } from './components/filter-table/filter-table.component';
+import { SelectionTableComponent } from './components/selection-table/selection-table.component';
+import { LazyloadTableComponent } from './components/lazyload-table/lazyload-table.component';
 
 const routes = [
   {
@@ -44,7 +47,10 @@ const routes = [
       },
       {
         path: 'edit-table', component: EditTableComponent
-      }
+      },
+      { path: 'filter-table', component: FilterTableComponent },
+      { path: 'selection-table', component: SelectionTableComponent },
+      { path: 'lazy-table', component: LazyloadTableComponent }
     ]
 
   },

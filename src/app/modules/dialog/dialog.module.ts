@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DialogComponent } from './dialog.component';
 import { DialogRoutingModule } from './dialog-routing.module';
-import { PrimeNGModule } from 'src/app/shared/prime-ng/prime-ng.module';
+import { PrimeNGModule } from 'src/app/shared/modules/prime-ng/prime-ng.module';
 import { ConfirmdialogComponent } from './components/confirmdialog/confirmdialog.component';
 import { ConfirmationService, MessageService } from 'primeng/api';
 import { BasicDialogComponent } from './components/basic-dialog/basic-dialog.component';
