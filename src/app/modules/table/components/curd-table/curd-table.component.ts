@@ -15,7 +15,7 @@ export class CurdTableComponent implements OnInit {
 
   product!: Product;
 
-  selectedProducts!: Product[];
+  selectedProducts!: Product[] | null;
 
   submitted!: boolean;
 
@@ -45,7 +45,7 @@ export class CurdTableComponent implements OnInit {
       header: 'Confirm',
       icon: 'pi pi-exclamation-triangle',
       accept: () => {
-        this.products = this.products.filter(val => !this.selectedProducts.includes(val));
+        this.products = this.products.filter(val => !this.selectedProducts?.includes(val));
         this.selectedProducts = null;
         this.messageService.add({ severity: 'success', summary: 'Successful', detail: 'Products Deleted', life: 3000 });
       }
@@ -78,7 +78,7 @@ export class CurdTableComponent implements OnInit {
   saveProduct() {
     this.submitted = true;
 
-    if (this.product.name.trim()) {
+    if (this.product?.name?.trim()) {
       if (this.product.id) {
         this.products[this.findIndexById(this.product.id)] = this.product;
         this.messageService.add({ severity: 'success', summary: 'Successful', detail: 'Product Updated', life: 3000 });

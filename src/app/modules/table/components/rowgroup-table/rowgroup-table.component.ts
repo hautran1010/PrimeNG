@@ -8,7 +8,7 @@ import { Customer } from '../../../../shared/model/customer.model';
   styleUrls: ['./rowgroup-table.component.scss']
 })
 export class RowgroupTableComponent implements OnInit {
-  customers: Customer[];
+  customers!: Customer[];
   constructor(private _customerService: CustomerService) { }
 
   ngOnInit(): void {
@@ -20,7 +20,7 @@ export class RowgroupTableComponent implements OnInit {
 
     if (this.customers) {
       for (let customer of this.customers) {
-        if (customer.representative.name === name) {
+        if (customer?.representative?.name === name) {
           total++;
         }
       }

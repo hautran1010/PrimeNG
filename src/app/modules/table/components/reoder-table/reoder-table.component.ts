@@ -9,9 +9,9 @@ import { Product } from '../../../../shared/model/product.model';
 })
 export class ReoderTableComponent implements OnInit {
 
-  products: Product[];
+  products!: Product[];
 
-  cols: any[];
+  cols!: any[];
   constructor(private _products: ProductService) { }
 
   ngOnInit(): void {

@@ -8,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DialogComponent implements OnInit {
 
-  displayBasic!: boolean;
-  showBasicDialog() {
-    this.displayBasic = true;
-  }
+
   constructor() { }
 
   ngOnInit(): void {

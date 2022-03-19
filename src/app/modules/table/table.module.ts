@@ -12,6 +12,8 @@ import { ConfirmationService, MessageService } from 'primeng/api';
 import { ReoderTableComponent } from './components/reoder-table/reoder-table.component';
 import { RowgroupTableComponent } from './components/rowgroup-table/rowgroup-table.component';
 import { ExportTableComponent } from './components/export-table/export-table.component';
+import { StateTableComponent } from './components/state-table/state-table.component';
+import { EditTableComponent } from './components/edit-table/edit-table.component';
 
 
 
@@ -24,7 +26,9 @@ import { ExportTableComponent } from './components/export-table/export-table.com
     CurdTableComponent,
     ReoderTableComponent,
     RowgroupTableComponent,
-    ExportTableComponent
+    ExportTableComponent,
+    StateTableComponent,
+    EditTableComponent
   ],
   imports: [
     CommonModule,

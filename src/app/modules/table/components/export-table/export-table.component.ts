@@ -10,15 +10,15 @@ import { Product } from '../../../../shared/model/product.model';
 export class ExportTableComponent implements OnInit {
 
 
-  products: Product[];
+  products!: Product[];
 
-  selectedProducts: Product[];
+  selectedProducts!: Product[];
 
   constructor(private productService: ProductService) { }
 
-  cols: any[];
+  cols!: any[];
 
-  exportColumns: any[];
+  exportColumns!: any[];
 
   ngOnInit(): void {
     this.productService.getAllProductSmall()

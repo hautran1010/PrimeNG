@@ -18,6 +18,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { DynamicDialogModule } from 'primeng/dynamicdialog';
 @NgModule({
   declarations: [],
   imports: [
@@ -41,7 +42,8 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     InputTextModule,
     RadioButtonModule,
     InputNumberModule,
-    InputTextareaModule
+    InputTextareaModule,
+    DynamicDialogModule
 
   ]
 })

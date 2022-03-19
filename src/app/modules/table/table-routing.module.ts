@@ -8,6 +8,8 @@ import { CurdTableComponent } from './components/curd-table/curd-table.component
 import { ReoderTableComponent } from './components/reoder-table/reoder-table.component';
 import { RowgroupTableComponent } from './components/rowgroup-table/rowgroup-table.component';
 import { ExportTableComponent } from './components/export-table/export-table.component';
+import { StateTableComponent } from './components/state-table/state-table.component';
+import { EditTableComponent } from './components/edit-table/edit-table.component';
 
 const routes = [
   {
@@ -36,6 +38,12 @@ const routes = [
       {
         path: 'export-table',
         component: ExportTableComponent
+      },
+      {
+        path: 'state-table', component: StateTableComponent
+      },
+      {
+        path: 'edit-table', component: EditTableComponent
       }
     ]
 
