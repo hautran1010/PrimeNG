@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CustomerService } from 'src/app/services/customer/customer.service';
-import { Customer } from 'src/app/shared/model/customer.model';
+import { CustomerService } from '../../../../services/customer/customer.service';
+import { Customer } from '../../../../shared/model/customer.model';
 
 @Component({
   selector: 'app-rowgroup-table',

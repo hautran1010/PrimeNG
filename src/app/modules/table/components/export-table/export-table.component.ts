@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from 'src/app/services/product/product.service';
-import { Product } from 'src/app/shared/model/product.model';
 import * as FileSaver from 'file-saver';
+import { ProductService } from '../../../../services/product/product.service';
+import { Product } from '../../../../shared/model/product.model';
 @Component({
   selector: 'app-export-table',
   templateUrl: './export-table.component.html',

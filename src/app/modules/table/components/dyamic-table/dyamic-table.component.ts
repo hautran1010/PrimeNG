@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from 'src/app/services/product/product.service';
-import { Product } from 'src/app/shared/model/product.model';
+import { ProductService } from '../../../../services/product/product.service';
+import { Product } from '../../../../shared/model/product.model';
 
 @Component({
   selector: 'app-dyamic-table',
