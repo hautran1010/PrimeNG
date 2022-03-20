@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC,SAAS,CAAC,kBAAkB,CAAC,EAAE,CAAC;EACpC,WAAW,EAAE,GAAG;CACjB;;AAED,AACE,KADG,CAAC,SAAS,CAAC,kBAAkB,CAChC,IAAI,CAAC;EACH,WAAW,EAAE,GAAG;CACjB;;AAHH,AAKE,KALG,CAAC,SAAS,CAAC,kBAAkB,CAKhC,cAAc,CAAC;EACb,cAAc,EAAE,MAAM;EACtB,YAAY,EAAE,OAAO;CACtB",
-    "sources": [
-        "rowgroup-table.component.scss"
-    ],
-    "names": [],
-    "file": "rowgroup-table.component.css"
-}

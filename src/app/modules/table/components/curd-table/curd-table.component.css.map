@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC,SAAS,CAAC,SAAS,CAAC,cAAc,CAAC;EACvC,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,gBAAgB;EACxB,OAAO,EAAE,KAAK;CACf",
-    "sources": [
-        "curd-table.component.scss"
-    ],
-    "names": [],
-    "file": "curd-table.component.css"
-}
